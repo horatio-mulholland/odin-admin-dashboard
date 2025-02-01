@@ -9,52 +9,56 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <h1>
-                <img src="./res/view-dashboard.svg" width="20px" height="20px">
-                Dashboard
-            </h1>
-            <ul>
-                <li>
-                    <img src="./res/home.svg" width="20px" height="20px">
-                    Home
-                </li>
-                <li>
-                    <img src="./res/card-account-details-outline.svg" width="20px" height="20px">
-                    Profile
-                </li>
-                <li>
-                    <img src="./res/message-reply.svg" width="20px" height="20px">
-                    Messages
-                </li>
-                <li>
-                    <img src="./res/clock-outline.svg" width="20px" height="20px">
-                    History
-                </li>
-                <li>
-                    <img src="./res/file-multiple-outline.svg" width="20px" height="20px">
-                    Tasks
-                </li>
-                <li>
-                    <img src="./res/account-group.svg" width="20px" height="20px">
-                    Communities
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="./res/cog.svg" width="20px" height="20px">
-                    Settings
-                </li>
-                <li>
-                    <img src="./res/help-box.svg" width="20px" height="20px">
-                    Support
-                </li>
-                <li>
-                    <img src="./res/shield-check.svg" width="20px" height="20px">
-                    Privacy
-                </li>
-            </ul>
+            <div class="logo">
+                <img src="./res/view-dashboard.svg" width="40px" height="40px">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="group-one">
+                <img src="./res/home.svg" width="20px" height="20px">
+                <a href="#">Home</a>
+                <img src="./res/card-account-details-outline.svg" width="20px" height="20px">
+                <a href="#">Profile</a>
+                <img src="./res/message-reply.svg" width="20px" height="20px">
+                <a href="#">Messages</a>
+                <img src="./res/clock-outline.svg" width="20px" height="20px">
+                <a href="#">History</a>
+                <img src="./res/file-multiple-outline.svg" width="20px" height="20px">
+                <a href="#">Tasks</a>
+                <img src="./res/account-group.svg" width="20px" height="20px">
+                <a href="#">Communities</a>
+            </div>
+            <div class="group-two">
+                <img src="./res/cog.svg" width="20px" height="20px">
+                <a href="#">Settings</a>
+                <img src="./res/help-box.svg" width="20px" height="20px">
+                <a href="#">Support</a>
+                <img src="./res/shield-check.svg" width="20px" height="20px">
+                <a href="#">Privacy</a>
+            </div>
         </div>
-        <div class="header"></div>
+        <div class="header">
+            <form class="search">
+                <label for="search_here">
+                    <img src="./res/magnify.svg" width="20px" height="20px">
+                </label>
+                <input id="search_here" type="search">
+            </form>
+            <div class="account-panel">
+                <img src="./res/bell-ring-outline.svg" width="20px" height="20px">
+                <img src="#" width="40px" height="40px">
+                <h1>Hendor Broccoli</h1>
+            </div>
+            <div class="welcome">
+                <img src="#" width="40px" height="40px">
+                <h2>Hi there,</h2>
+                <h1>Hendor Brocolli (@hendor)</h1>
+            </div>
+            <div class="options">
+                <button class="new">New</button>
+                <button class="upload">Upload</button>
+                <button class="share">Share</button>
+            </div>
+        </div>
         <div class="main"></div>
     </div>
 </body>
